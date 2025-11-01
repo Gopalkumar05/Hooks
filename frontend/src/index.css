@@ -1,0 +1,95 @@
+App.css
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.App-header nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.App-header button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #61dafb;
+  color: #282c34;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.App-header button.active {
+  background-color: #21a1c4;
+  color: white;
+}
+
+.App-header button:hover {
+  background-color: #4fa8c5;
+}
+
+.hook-example {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.hook-example h2 {
+  color: #282c34;
+  border-bottom: 2px solid #61dafb;
+  padding-bottom: 10px;
+}
+
+.hook-example div {
+  margin: 15px 0;
+  padding: 15px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+}
+
+.hook-example input,
+.hook-example select,
+.hook-example button {
+  margin: 5px;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.hook-example button {
+  background-color: #61dafb;
+  color: #282c34;
+  border: none;
+  cursor: pointer;
+}
+
+.hook-example button:hover {
+  background-color: #4fa8c5;
+}
+
+.hook-example ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.hook-example li {
+  padding: 8px;
+  margin: 5px 0;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
